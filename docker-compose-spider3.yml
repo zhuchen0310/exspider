@@ -1,0 +1,35 @@
+version: "3"
+services:
+
+  redis:
+    image: redis:latest
+    restart: always
+    ports:
+      - "6379:6379"
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    restart: always
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+      - "9419:9419"
+
+  ex:
+    image: exspider
+    restart: always
+    build: .
+    command: ./docker-entrypoint.sh spider3
+    volumes:
+      - .:/opt/exspider
+      - /opt/logs:/opt/logs:rw
+      - /opt/db:/opt/db:rw
+    container_name: exspider
+    ports:
+      - "8000:8000"
+      - "8765:8765"
+      - "8001:8001"
+    links:
+      - redis
+      - rabbitmq
+    privileged: true
