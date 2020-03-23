@@ -24,6 +24,21 @@
 ## 使用方法：
 - 请查看 [instructions.md](https://github.com/zhuchen0310/exspider/blob/master/Instructions.md)
 
+## kline接口
+- [huobipro btcusdt 1min kline](http://api.ihold.com/v2/coin/ohlcv?exchange=huobipro&symbol=btc_usdt&step=1min)
+```
+说明:
+            exchange    @: huobipro
+            symbol      @: btc_usdt
+            type        @: 初始为0, 更新为1, 左滑历史为:-1
+            reach       @: 客户端返回
+                            type: 0 初始化, 不需要传;
+                            type: 1 更新, 传最右侧 时间戳 更新所传时间戳之后的kline
+                            type: -1 历史, 传最左侧 时间戳 则 返回 reach 之前 500 条数据,
+            step        @: timeframe, 客户端存
+            limit       @: 默认500条
+```
+
 ## 主要模块：
 
 - 爬虫（spider）
