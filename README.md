@@ -25,8 +25,10 @@
 - 请查看 [instructions.md](https://github.com/zhuchen0310/exspider/blob/master/Instructions.md)
 
 ## kline接口
-- [huobipro btcusdt 1min kline](http://api.ihold.com/v2/coin/ohlcv?exchange=huobipro&symbol=btc_usdt&step=1min)
+- 点击查看kline返回数据： [huobipro btcusdt 1min kline](http://api.ihold.com/v2/coin/ohlcv?exchange=huobipro&symbol=btc_usdt&step=1min)
 ```
+API: http://api.ihold.com/v2/coin/ohlcv?exchange=huobipro&symbol=btc_usdt&step=1min
+请求方式: GET
 说明:
             exchange    @: huobipro
             symbol      @: btc_usdt
