@@ -22,7 +22,7 @@
 - 交易所 API 访问频率有限制
 
 ## 使用方法：
-- 请查看 instructions.md
+- 请查看 [instructions.md](https://github.com/zhuchen0310/exspider/blob/master/Instructions.md)
 
 ## 主要模块：
 
