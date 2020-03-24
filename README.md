@@ -42,6 +42,8 @@ API: http://api.ihold.com/v2/coin/ohlcv?exchange=huobipro&symbol=btc_usdt&step=1
 ```
 
 ## 主要模块：
+- 架构示意图
+[架构示意图.png](./技术架构图.png)
 
 - 爬虫（spider）
     - 连接 dispatch 注册
