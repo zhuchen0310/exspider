@@ -55,7 +55,7 @@ API: http://api.ihold.com/v2/coin/ohlcv?exchange=huobipro&symbol=btc_usdt&step=1
     - 实时上报运行状态至 dispatcher：IP、Exchange、Pair List
     - 以 Docker 方式运行
 - 中央控制器（dispatcher）
-    - 未完全实现，遗憾！
+    - 未完全实现，TODO ZK来管理注册中心！
     - 统计 spider 运行状态
     - 将交易所抓取请求均摊到各个 spider
     - spider 运行出错时及时切换任务
