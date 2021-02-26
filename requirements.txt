@@ -1,4 +1,4 @@
-aiohttp==3.5.4
+aiohttp==3.7.4
 aiologger==0.3.0
 aioredis==1.2.0
 aio-pika==5.5.1
