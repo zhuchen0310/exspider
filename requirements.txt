@@ -3,7 +3,7 @@ aiologger==0.3.0
 aioredis==1.2.0
 aio-pika==5.5.1
 aiosmtplib==1.0.4
-asyncpg==0.18.3
+asyncpg==0.21.0
 async-timeout==3.0.1
 ujson==1.35
 amqp==2.4.2
