@@ -19,7 +19,7 @@ hiredis==1.0.0
 idna==2.8
 idna-ssl==1.1.0
 ipdb==0.11
-ipython==7.3.0
+ipython==7.16.3
 ipython-genutils==0.2.0
 jedi==0.13.3
 kombu==4.4.0
