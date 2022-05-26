@@ -5,7 +5,7 @@ aio-pika==5.5.1
 aiosmtplib==1.0.4
 asyncpg==0.18.3
 async-timeout==3.0.1
-ujson==1.35
+ujson==5.2.0
 amqp==2.4.2
 attrs==19.1.0
 backcall==0.1.0
